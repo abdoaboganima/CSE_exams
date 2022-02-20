@@ -1,0 +1,18 @@
+By: @abdoaboganima
+Q4)
+
+a)
+AND DX, AX		; register addressing mode
+JMP JMPTABLE[BX]	; register relative addressing mode
+ADD DX, 15		; immedaite addressing mode
+CMP WORD PTR [BX+DI],10	; Base plus index addressing mode
+MOV IVAL[DI+4], CX	; Register relative addressing mode
+
+b)
+Suppose you have a different processor that was designed and operated similarly to 8086 architecture with the following differences:
+All of the registers are 8-bit registers and the physical address is a 10-bit number.
+    i) What would be the size of the total addressing space on this new  device?
+       	    the addressing space=2^10=1024 byte
+    ii) What would be the size of the `offset window` at each segment location?
+    	     Since the data in 8086 are stored in "segment:offset" format
+	     then we can divide then memory to 4 segments each segment has `2^8=256 bytes`

@@ -1,0 +1,19 @@
+
+Q2
+|---------------+-------------+----------------+---------------|
+| opcode =5-bit | modes=3-bit | register=6-bit | memory=18-bit |
+|---------------+-------------+----------------+---------------|
+
+Q3
+AL=1C
+CX=ffCA
+DL=9B
+
+Q4
+a) AL=14H
+b) AX=-4864=FFEDH,  DX=-136=FF78H
+c) AX=3432H
+
+Q5
+*Not sure a)* from highest priority to lowest: INT n -> NMI -> INTR
+b)f000:98B5

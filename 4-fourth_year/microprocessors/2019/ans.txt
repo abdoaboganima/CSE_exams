@@ -1,0 +1,12 @@
+Q1)
+a)
+    1. 16-bit data bus
+    2. 20-bit address bus
+    3. 16-bit ALU
+    4. Execute an instruuction almost in 400ns (2.5 Million instruction per second `MIPS`)
+    5. Has a small 4-byte or 6-byte instruction cache
+
+b)
+    i.  proc -> Used to endicate the start of a procedure
+    ii. endp -> Used to indicate the end   of a procedure
+

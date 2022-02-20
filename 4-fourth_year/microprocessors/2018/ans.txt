@@ -1,0 +1,33 @@
+By: @abdoaboganima
+Don't trust these solutions :P
+
+Q1)
+The stack is a block of memory that may be used for temporarily storing the contents of registers inside
+the CPU.
+If the contents of register SS=3500h and the content of the register SP=FFFEh.
+
+a. Calculate the physical address: PA=35000h+FFFEH=44FFEh
+b. Calculate the lower range of the stack: 35000h+0000h=35000h
+c. Calculate the upper range of the stack segment: 35000+FFFF = 44FFF
+d. Show the logical address of the stack: 3500:FFFE
+
+
+Q2)
+AL=64
+SI=11
+CX=0
+
+
+Q3)
+b)
+4A3C:332AH     =   4D6EAH
+
+Q4)
+a. Which instructions are used with BCD arithmetic operations?
+   	 DAA  `Decimal Adjust after Addition`
+	 DAS  `Decimal Adjust after Subtraction`
+b. Which instructions are used with ASCII arithmetic operations?
+   	 AAA  `ASCII Adjust after Addition`
+	 AAS  `ASCII Adjust after Subtraction`
+	 AAM  `ASCII Adjust after Multiplication`
+	 AAD  `ASCII Adjust after Division`
