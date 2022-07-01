@@ -1,0 +1,3 @@
+Q3)
+	a. Attributes are defined by HTML and are used to customize a tag.
+	   Properties belong to the DOM, document object model,

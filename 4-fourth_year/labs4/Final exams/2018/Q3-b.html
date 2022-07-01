@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>t1</title>
+ 
+    <script>
+      function addNode()
+      {
+      var newP=document.createElement('p');
+      var textNode=document.createTextNode("This is new textnode");
+      newP.appendChild(textNode);
+      document.getElementById("firstP").appendChild(newP);
+      
+      }
+    </script>
+    <style type="text/css" media="screen">
+      div
+      {
+      border: 2px solid black;
+      padding:1em;
+      background-color:white;
+      overflow:hidden;
+      }
+      div div > div {background-color: red;}
+      div> div .class{text-decoration: underline;}
+
+      #id {
+      padding: .9em;
+      border: 2px dashed black;
+      }
+      .id {float: right;}
+      .class #class {float: left;}
+    </style>
+  </head>
+
+  <body>
+
+    <div>
+
+      <div class="id">A A A A</div>
+      <div>
+	<span>B B
+	  B B</span>
+	<span id="id">C C C C</span>
+	<span class="class">D D D D</span>
+      </div>
+      
+      <div class="class">
+	<span>E E E E</span>
+	<div class="id">F F<br />F F</div>
+	<div id="class">G G<br />G G</div>
+	<div id="H">H H H H</div>
+      </div>
+
+    </div>
+    
+
+
+  </body>
+
+</html>
